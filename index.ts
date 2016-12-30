@@ -1,10 +1,14 @@
-/**
- * Created by Ricardo Teixeira on 30/12/2016.
- */
-export class CLASS_NAME {
+declare module "rts" {
 
-    constructor() {
-
+    export function strace(message: any, ...optionalParams: any[]): void {
+        for (let i = 0; i < arguments.length; i++) {
+            console.trace(arguments[i]);
+        }
     }
 
+    export function trace(message: any, ...optionalParams: any[]): void {
+        for (let i = 0; i < arguments.length; i++) {
+            console.log(arguments[i]);
+        }
+    }
 }

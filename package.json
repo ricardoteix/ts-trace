@@ -4,6 +4,7 @@
   "description": "Função equivalente ao console.log para simplificar escrevendo menos",
   "main": "index.js",
   "scripts": {
+    "start" : "ts-node index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
