@@ -1,0 +1,23 @@
+{
+  "name": "ts-trace",
+  "version": "1.0.0",
+  "description": "Função equivalente ao console.log para simplificar escrevendo menos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ricardoteix/ts-trace.git"
+  },
+  "keywords": [
+    "trace",
+    "debug"
+  ],
+  "author": "Ricardo Teixeira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ricardoteix/ts-trace/issues"
+  },
+  "homepage": "https://github.com/ricardoteix/ts-trace#readme"
+}
